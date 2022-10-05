@@ -1,0 +1,42 @@
+
+
+/*
+  text variables
+*/
+
+$avenir-font-file-prefix: "../Avenir_Next_Pro/AvenirNextLTPro-";
+
+// augmented fourth type scale
+$font-size-0: 16px;
+$font-size-1: 1.414rem;
+$font-size-2: 1.999rem;
+$font-size-3: 2.827rem;
+$font-size-4: 3.998rem;
+$font-size-5: 5.653rem;
+$font-size-6: 7.993rem;
+
+/*
+  layout variables 
+*/
+
+$layout-outer-padding: 40px;
+$layout-inner-padding: 120px;
+
+/*
+  site wide colour scheme
+*/
+$dark-primary: hsl(0, 0%, 6%);
+$light-primary: hsl(40, 95%, 92%);
+
+/*
+  pop colour theme for focus section  
+*/
+$pop-colour-1: hsla(223, 80, 59, 1);
+$pop-colour-2: hsla(337, 81, 57, 1);
+$pop-colour-3: hsla(42, 85, 58, 1);
+$pop-colour-4: hsla(124, 85, 59, 1);
+
+$pop-colour-dark-1: mix(black, hsla(223, 80, 59, 1), 30%);
+$pop-colour-dark-2: mix(black, hsla(337, 81, 57, 1), 30%);
+$pop-colour-dark-3: mix(black, hsla(42, 85, 58, 1), 30%);
+$pop-colour-dark-4: mix(black, hsla(124, 85, 59, 1), 30%);
