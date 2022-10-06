@@ -19,8 +19,14 @@ $font-size-6: 7.993rem;
   layout variables 
 */
 
-$layout-outer-padding: 40px;
+$layout-margin: 40px;
 $layout-inner-padding: 120px;
+
+$grid-columns: 12;
+$max-grid-rows: 100;
+$layout-margin: 40px;
+$row-gap: 20px;
+$row-height: 44px;
 
 /*
   site wide colour scheme

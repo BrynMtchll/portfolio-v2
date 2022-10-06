@@ -1,0 +1,31 @@
+@import "../variables.scss";
+
+.intro {
+    &__name {
+        font-size: $font-size-4;
+        font-weight: 500;
+    }
+
+    &__lead {
+        font-weight: 400;
+        font-size: $font-size-2;
+    }
+
+    &__bio {
+        font-weight: 300;
+        font-size: $font-size-1;
+    }
+
+    &__selfie {
+        background-image: url("../media/selfie2.jpg");
+        background-size: cover;
+        background-position: center;
+        z-index: 1;
+        border: 0px solid $dark-primary;
+        width: 500px;
+    }
+
+    &__aim {
+        z-index: 1;
+    }
+}

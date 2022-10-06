@@ -1,0 +1,96 @@
+@import "../variables.scss";
+
+.eye-box {
+  // border: 2px solid black;
+  background-size: 12px 12px;
+  background-position: 0 0, 30px 30px;
+  position: relative;
+  box-sizing: content-box;
+  overflow: visible;
+
+
+  &__cover{
+    width: 100%;
+    height: 100%;
+    background: $light-primary;
+    position: absolute;
+    z-index: 1;
+  }
+
+  &__border {
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    position: absolute;
+    border: 4px solid black;
+    left: -2px;
+    top: -2px;
+    z-index: 2;
+  }
+
+  &--pop-colour-1 {
+    background-color: $pop-colour-1;
+    background-image: radial-gradient($pop-colour-dark-1, 35%, transparent 35%);
+    
+  }
+  &--pop-colour-2 {
+    background-color: $pop-colour-2;
+    background-image: radial-gradient($pop-colour-dark-2, 35%, transparent 35%);
+  }
+  &--pop-colour-3 {
+    background-color: $pop-colour-3;
+    background-image: radial-gradient($pop-colour-dark-3, 35%, transparent 35%);
+  }
+  &--pop-colour-4 {
+    background-color: $pop-colour-4;
+    background-image: radial-gradient($pop-colour-dark-4, 35%, transparent 35%);
+  }
+  &--small {
+    width: 80px;
+    height: 80px;
+  }
+
+  &__eye-pair {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__eye {
+    position: relative;
+    width: 45%;
+    height: 45%;
+    border: 4px solid $dark-primary;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--right {
+      right: 2px;
+    }
+    &--left {
+      left: 2px;
+    }
+  }
+
+  &__pupil {
+    width: 50%;
+    height: 50%;
+    background: $dark-primary;
+    border-radius: 50%;
+  }
+
+  &__reflection {
+    position: relative;
+    left: 24%;
+    top: 16%;
+    width: 15%;
+    height: 20%;
+    border-radius: 50%;
+    background: white;
+    transform: rotateZ(45deg)
+  }
+}
